@@ -20,11 +20,6 @@ class HelloController {
     public String helloPost() {
         return "Hello World";
     }
-    @GetMapping("/hello")
-    @ResponseBody // html 파일이 아닌것 반환시
-    public String helloGet2() {
-        return "Hello World2";
-    }
 
     @GetMapping("/get")
     @ResponseBody
